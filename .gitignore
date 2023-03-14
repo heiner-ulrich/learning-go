@@ -4,8 +4,8 @@
 
 
 
-.Salesforce/sf_query_simpleforce.go
-.Salesforce/sf_query.go
+Salesforce/sf_query_simpleforce.go
+Salesforce/sf_query.go
 
 # Salesforce cache
 .sfdx/
