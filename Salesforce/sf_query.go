@@ -29,12 +29,13 @@ func main() {
 	client := &http.Client{}
 
 	// Set up the Salesforce login request data
+
 	data := url.Values{}
 	data.Set("grant_type", "password")
 	data.Set("client_id", "3MVG9mVMtbWMH6lsNCBsxz8vJ81zcvJk84NERgyxERJ1xBiQIVjIb10FpzTfM9t5rKvIMXAXY5kTBTVEkVkHi")
 	data.Set("client_secret", "006A7FBB9184EB15A7D69F509238B3BE98637247441DD5B13DBB68278070C6DB")
 	data.Set("username", "hu+117@ulrich.consulting")
-	data.Set("password", "jVc9V6.:Y8FVBt+w")
+	data.Set("password", "jVc9V6.:Y8FVBt+w") // new pw // connected app disabled (Perform ANSI SQL queries on Customer Data Platform data)
 
 
 	// Send the Salesforce login request
